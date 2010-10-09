@@ -1,0 +1,11 @@
+A data structure of an Item object that contains an Items object collection(a sub class of Hash).
+Each Item object has a ‘meta’ and ‘metap’ instance variables that that are standard Hash 
+collections by default and has assessor methods ‘meta and ‘metap’ respectively.  
+‘metap’ is meant more for private data. 
+
+In the Item objects info is kept on what other Item object (the ‘within’ assessor) 
+is within and what collection object (the ‘container’ assessor) it is contained by.  
+
+A data structure of Item objects that contain Items object collections with built in 
+meta info and internal reference of Item object it is ‘within’ and the ‘container’ 
+collection it is contained by.
